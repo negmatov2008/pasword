@@ -1,39 +1,197 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <title>Pasword</title>
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta
+      http-equiv="Cache-control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <link rel="icon shortcut" href="favicon.ico?v=vMgxE2LYKv" />
+    <title>Offline Student Panel</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn-app.sberdevices.ru/shared-static/0.0.0/styles/SBSansText.0.1.0.css"
+    />
+    <style>
+      .spinner {
+        align-items: center;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+      }
+    </style>
+    <meta
+      name="version"
+      content="d9341828e179370077f5834be452d0baec290e59ad30f65b04c4549e074e39b6"
+    />
+    <script
+      defer="defer"
+      src="/static/js/runtime.e599d155d447deae1632.js"
+    ></script>
+    <script
+      defer="defer"
+      src="/static/js/modules/mui.b1fd2d6a7bae5be5f0bd.js"
+    ></script>
+    <script
+      defer="defer"
+      src="/static/js/modules/axios.6a67ae4e1129733823b4.js"
+    ></script>
+    <script
+      defer="defer"
+      src="/static/js/modules/react-transition-group.b5db007462b50909bb82.js"
+    ></script>
+    <script
+      defer="defer"
+      src="/static/js/modules/babel.aba765f22be231026eee.js"
+    ></script>
+    <script
+      defer="defer"
+      src="/static/js/modules/classnames.90ea42d5fabc0cc5c7a1.js"
+    ></script>
+    <script
+      defer="defer"
+      src="/static/js/modules/usehooks-ts.c9d7eb2c1cbe93900cb3.js"
+    ></script>
+    <script
+      defer="defer"
+      src="/static/js/modules/crypto-js.f107fc0945cb42f28560.js"
+    ></script>
+    <script
+      defer="defer"
+      src="/static/js/modules/mobx-react-lite.2714b5020bbebdc34ead.js"
+    ></script>
+    <script
+      defer="defer"
+      src="/static/js/modules/emotion.c11cc5abe88bf8d923eb.js"
+    ></script>
+    <script
+      defer="defer"
+      src="/static/js/modules/react-dom.e4141c7c911740417fd5.js"
+    ></script>
+    <script
+      defer="defer"
+      src="/static/js/modules/react-hook-form.d16d72a53a06a271e5c4.js"
+    ></script>
+    <script
+      defer="defer"
+      src="/static/js/modules/react-router.ac72667a7ef3be5e9e0e.js"
+    ></script>
+    <script
+      defer="defer"
+      src="/static/js/modules/mobx.71551816ed6235260851.js"
+    ></script>
+    <script
+      defer="defer"
+      src="/static/js/modules/remix-run.c6122b35c600d68e780c.js"
+    ></script>
+    <script
+      defer="defer"
+      src="/static/js/main.bfa49eb39bf50c4043d0.js"
+    ></script>
+    <link
+      href="/static/styles/main.473e7269b1394ff9628f.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="continer">
-      <div class="display">
-        <div class="oval"></div>
-        <div class="oval"></div>
-        <div class="oval"></div>
-        <div class="oval"></div>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+      <div class="spinner">
+        <div class="spinner__loader">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            style="
+              margin: auto;
+              background: rgb(255, 255, 255);
+              display: block;
+              shape-rendering: auto;
+              animation-play-state: running;
+              animation-delay: 0s;
+            "
+            width="200px"
+            height="200px"
+            viewBox="0 0 100 100"
+            preserveAspectRatio="xMidYMid"
+          >
+            <circle
+              cx="50"
+              cy="50"
+              r="0"
+              fill="none"
+              stroke="#ba8d5b"
+              stroke-width="2"
+              style="animation-play-state: running; animation-delay: 0s"
+            >
+              <animate
+                attributeName="r"
+                repeatCount="indefinite"
+                dur="1s"
+                values="0;40"
+                keyTimes="0;1"
+                keySplines="0 0.2 0.8 1"
+                calcMode="spline"
+                begin="0s"
+                style="animation-play-state: running; animation-delay: 0s"
+              ></animate>
+              <animate
+                attributeName="opacity"
+                repeatCount="indefinite"
+                dur="1s"
+                values="1;0"
+                keyTimes="0;1"
+                keySplines="0.2 0 0.8 1"
+                calcMode="spline"
+                begin="0s"
+                style="animation-play-state: running; animation-delay: 0s"
+              ></animate>
+            </circle>
+            <circle
+              cx="50"
+              cy="50"
+              r="0"
+              fill="none"
+              stroke="#0eb182"
+              stroke-width="2"
+              style="animation-play-state: running; animation-delay: 0s"
+            >
+              <animate
+                attributeName="r"
+                repeatCount="indefinite"
+                dur="1s"
+                values="0;40"
+                keyTimes="0;1"
+                keySplines="0 0.2 0.8 1"
+                calcMode="spline"
+                begin="-0.5s"
+                style="animation-play-state: running; animation-delay: 0s"
+              ></animate>
+              <animate
+                attributeName="opacity"
+                repeatCount="indefinite"
+                dur="1s"
+                values="1;0"
+                keyTimes="0;1"
+                keySplines="0.2 0 0.8 1"
+                calcMode="spline"
+                begin="-0.5s"
+                style="animation-play-state: running; animation-delay: 0s"
+              ></animate>
+            </circle>
+          </svg>
+        </div>
       </div>
-      <div class="input">
-        <button class="btn">1</button>
-        <button class="btn">2</button>
-        <button class="btn">3</button>
-        <button class="btn">4</button>
-        <button class="btn">5</button>
-        <button class="btn">6</button>
-        <button class="btn">7</button>
-        <button class="btn">8</button>
-        <button class="btn">9</button>
-        <button class="nine btn">0</button>
-        <a href="" class="btn_href">
-          <button class="cans">c</button>
-        </a>
-      </div>
-      <a href="./index.html" class="href">
-        <button class="submit">Submit</button>
-      </a>
     </div>
-    <script src="./main.js"></script>
   </body>
 </html>
